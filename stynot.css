@@ -1,0 +1,51 @@
+* { /* Esse código é usado para zerar todas as modificações do navegadores*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: white;
+    text-align: center;
+    
+}
+.op{
+    display:flex;
+    justify-content: center;
+    gap:32px;
+    margin-top: 20px;
+   
+   
+    
+}
+.filho{
+    padding: 5px 35px;
+    
+
+}
+.fiPai{
+    display:flex;
+    flex-direction:column;
+    text-align:left;         /* Usamos para alinhar o texto no center, right, justify*/
+    text-align: justify;    
+    padding: 20px;
+   
+}
+.tipos {
+    padding: 15px 10px;
+   
+}
+textarea{
+    width:500px;
+    height:250px;
+    resize:none;
+   
+}
+fieldset{
+    /*display: inline-block;
+    border:none;
+    
+    
+}
